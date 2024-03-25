@@ -1,0 +1,177 @@
+.slogan {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+.texts {
+    font-size: 2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.titlebox{
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 250px;
+
+}
+.tagsbox{
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 300px;
+
+}
+.urlbox,
+
+.descriptionbox {
+    margin-left: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.urltext,
+.titletext,
+.tagstext,
+.descriptiontext {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.title{
+    padding-top: 30px;
+    text-align: center; 
+    padding-right: 100px;
+}
+.tags{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 50px;
+
+}
+
+.url{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.description {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 45px;
+}
+
+.button{
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    padding-bottom: 5px;
+
+}
+.shortbutton{
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.savebutton{
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+.usersbutton {
+    background-color: #1133ba;
+    color: white;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.button:hover{
+    background-color: #45a049; 
+}
+.shortbutton:hover{
+    background-color: #45a049; 
+}
+.savebutton:hover{
+    background-color: #45a049; 
+}
+.usersbutton:hover {
+    background-color: #1571b7; 
+}
+
+.submit {
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.shorturl{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 152px;
+}
+.userslist {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.shorturltext {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.shorturlbox {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.savebutton {
+    margin-right: 110px;
+}
+
+.users {
+    font-size: 20px;
+}

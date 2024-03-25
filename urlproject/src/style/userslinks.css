@@ -1,0 +1,121 @@
+.bookmark-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .bookmark-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bookmark-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .bookmark-content {
+    font-size: 14px;
+  }
+  
+  .bookmark-content p {
+    margin-bottom: 10px;
+  }
+  
+  .bookmark-content div {
+    margin-bottom: 5px;
+  }
+  
+  .bookmark-content a {
+    text-decoration: none;
+    color: #007BFF;
+    word-break: break-all; /* To prevent long URLs from breaking layout */
+  }
+  
+  .bookmark-content a:hover {
+    text-decoration: underline;
+  }
+.list{
+    padding-left: 20px;
+}  
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #2980b9;
+}
+
+.bookmark-card {
+  position: relative;
+}
+
+.bookmark-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+.enable-disable-buttons {
+  display: flex;
+  justify-content: center; /* Center align the content horizontally */
+  margin-top: 10px; /* Add margin for spacing */
+}
+.enable-disable-buttons button {
+  margin: 0 5px; /* Add some spacing between buttons */
+  padding: 8px 16px; /* Add padding for a better appearance */
+  cursor: pointer;
+}
+
+.enable-disable-buttons button.disable {
+  background-color: rgb(222, 95, 95);
+  color: white; /* Text color */
+}
+
+.enable-disable-buttons button.enable {
+  background-color: rgb(123, 193, 123);
+  color: white; /* Text color */
+}
+
+.fade {
+  opacity: 0.5; /* Adjust the opacity as needed */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
